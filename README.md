@@ -14,7 +14,7 @@ The concept is well defined for buildings, bridges, tunnels, and to some extent 
 ### Our framework for TIN terrain LODs in CityGML
 
 | LOD  | Visualization | Description |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- | 
 | LOD1  | <img src="figures/lod0.png" width="300" height="200"> | LOD0 = a strict 2.5D TIN representation.|
 | LOD2  | <img src="figures/lod1.png" width="300" height="180"> | LOD1 = LOD0 + information about the vertical triangles and overhangs in the TIN. |
 | LOD3  | <img src="figures/lod2.png" width="300" height="200"> | LOD2 = LOD0 + information about the city objects integrated in the terrain. |
