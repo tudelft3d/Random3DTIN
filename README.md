@@ -14,7 +14,7 @@ The concept is well defined for buildings, bridges, tunnels, and to some extent 
 ### Our framework for TIN terrain LODs in CityGML
 
 | LOD  | Visualization | Description |
-| ------------- | ------------- | ------------- | 
+| ------------- | ------------- | ------------- |
 | LOD1  | <img src="figures/lod0.png" width="300" height="200"> | LOD0 = a strict 2.5D TIN representation.|
 | LOD2  | <img src="figures/lod1.png" width="300" height="180"> | LOD1 = LOD0 + information about the vertical triangles and overhangs in the TIN. |
 | LOD3  | <img src="figures/lod2.png" width="300" height="200"> | LOD2 = LOD0 + information about the city objects integrated in the terrain. |
@@ -39,32 +39,16 @@ The software has been developed on MacOS in Python 3.7, and has not been tested 
 How to use?
 -----------
 
-#### LOD0 terrain
-To generate a strict 2.5D LOD0 CityGML terrain model, use the following command:
+```
+python3 random3dtin.py -n /numberOfPoints/ -o /pathToOutputFile/ -t0/1/2/3 1
+```
+
+For instance, to generate an LOD0 CityGML terrain model, use the following command:
 
 ```
 python3 random3dtin.py -n 100 -o /path/to/outputfile/ -t0 1
 ```
 
-#### LOD1 terrain
-To generate an LOD1 CityGML terrain model with vertical walls, use the following command:
-
-```
-python3 random3dtin.py -n 100 -o /path/to/outputfile/ -t1 1
-```
-
-#### LOD2 terrain
-To generate a strict 2.5D LOD2 CityGML terrain model with information about the integrated city objects, use the following command:
-
-```
-python3 random3dtin.py -n 100 -o /path/to/outputfile/ -t2 1
-```
-
-#### LOD3 terrain
-To generate an LOD3 CityGML terrain model with vertical walls and information about the integrated city objects, use the following command:
-```
-python3 random3dtin.py -n 100 -o /path/to/outputfile/ -t3 1
-```
 
 Note:
 
