@@ -18,7 +18,6 @@ import numpy as np
 import triangle
 from shapely import geometry
 from shapely.geometry import Polygon,Point
-import numpy as np
 
 #CityGML 2.0 namespaces
 ns_citygml = "http://www.opengis.net/citygml/2.0"

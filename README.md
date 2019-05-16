@@ -31,6 +31,7 @@ System requirements
 + [triangle](https://pypi.org/project/triangle/)
 + [uuid](https://docs.python.org/3/library/uuid.html)
 + [shapely](https://pypi.org/project/Shapely/)
++ [numpy](https://pypi.org/project/numpy/)
 
 ### OS and Python version
 
